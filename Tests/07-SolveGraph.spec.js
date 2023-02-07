@@ -1,7 +1,7 @@
 const { expect } = require('chai')
 const SolveGraph = require('../Ejercicios/07-SolveGraph/SolveGraph')
 
-xdescribe('SolveGraph', function () {
+describe('SolveGraph', function () {
   const graph = {
     a: ['c'],
     b: ['c'],

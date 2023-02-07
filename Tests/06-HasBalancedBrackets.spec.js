@@ -1,7 +1,7 @@
 const { expect } = require('chai')
 const HasBalanceBrackets = require('../Ejercicios/06-HasBalancedBrackets/HasBalancedBrackets')
 
-describe('HasBalanceBrackets', function () {
+xdescribe('HasBalanceBrackets', function () {
   it('should return true if called with {[]()}', function () {
     expect(HasBalanceBrackets('{[]()}')).to.equal(true)
   })

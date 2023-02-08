@@ -1,7 +1,7 @@
 const { expect } = require('chai')
 const FindWordStartingWith = require('../Ejercicios/08-FindWordStartingWith/FindWordStartingWith')
 
-xdescribe('FindWordStartingWith', function () {
+describe('FindWordStartingWith', function () {
   const book = {
     id: 1,
     text:

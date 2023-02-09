@@ -1,7 +1,7 @@
 const { expect } = require('chai')
 const BinaryToDecimal = require('../Ejercicios/09-BinaryToDecimal/BinaryToDecimal')
 
-xdescribe('BinaryToDecimal', function () {
+describe('BinaryToDecimal', function () {
   it("should return 2 when called with '10'", function () {
     expect(BinaryToDecimal('10')).to.equal(2)
   })
